@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "King Salon",
+    "slug": "kingsalon-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/salon-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kingsalon.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/salon-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "useNextNotificationsApi": true,
+      "package": "com.kingsalon.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f06c88c9-28be-457e-ad15-17d68fd17646"
+      }
+    },
+    "owner": "azizadil"
+  }
+}
